@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@sdcwbitetw4a27kz_medium
+    username: ADMIN
+    password: Start6854aaaaa*
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.OracleDialect
+    # hibernate 6.x 버전에서는 org.hibernate.dialect.Oracle12cDialect 사용x
+
+oracle:
+  net:
+    tns_admin: /Users/jinhyunlee/Desktop/Wallet_SDCWBITETW4A27KZ
