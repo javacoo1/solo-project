@@ -5,12 +5,12 @@ spring:
     password: Start6854aaaaa*
     driver-class-name: oracle.jdbc.OracleDriver
 
-    thymeleaf:
-      prefix: classpath:/templates/
-      suffix: .html
-      mode: HTML
-      encoding: UTF-8
-      cache: false
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML
+    encoding: UTF-8
+    cache: false
 
   jpa:
     hibernate:
